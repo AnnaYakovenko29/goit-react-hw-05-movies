@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import { getTrending } from '../Api/Api';
+import { getTrending } from '../../Api/Api';
 import {  MovieItem } from './Home.styled';
 
 export default function Home() {

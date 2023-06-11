@@ -6,7 +6,7 @@ import {
   useLocation,
   useNavigate,
 } from 'react-router-dom';
-import { getMovieById } from '../Api/Api';
+import { getMovieById } from '../../Api/Api';
 import {
   Container,
   Button,

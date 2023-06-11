@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { getMovieReviews } from '../Api/Api';
+import { getMovieReviews } from '../../Api/Api';
 import { List, Author, Text } from './Reviews.styled';
 
 export default function Reviews() {
