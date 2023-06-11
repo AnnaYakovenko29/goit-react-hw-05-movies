@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams, NavLink, useLocation } from 'react-router-dom';
-import { searchMovies } from '../../../Api/Api';
+import { searchMovies } from '../../Api/Api';
 import { Form, Input, Button, MovieItem } from './Movies.styled';
 
 export default function Movies() {
